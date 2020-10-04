@@ -7,6 +7,10 @@ class GenresController < ApplicationController
   def create
   end
 
+  def edit
+    @genre = Genre.find(params[:id])
+  end
+  
   def update
   end
 
