@@ -1,4 +1,4 @@
-class SongController < ApplicationController
+class SongsController < ApplicationController
 
   def new
   end
