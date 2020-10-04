@@ -1,4 +1,4 @@
-class GenreController < ApplicationController
+class GenresController < ApplicationController
 
   def new
   end
@@ -13,4 +13,3 @@ class GenreController < ApplicationController
   end
 
 end
-  
