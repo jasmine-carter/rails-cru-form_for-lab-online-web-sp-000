@@ -5,12 +5,13 @@ class GenresController < ApplicationController
   end
 
   def create
+      @genre = Genre.new(genre_params(:name))
   end
 
   def edit
     @genre = Genre.find(params[:id])
   end
-  
+
   def update
   end
 
